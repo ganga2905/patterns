@@ -337,3 +337,62 @@ function num3(n){
 
 }
 console.log(num3(5));
+
+// turn
+
+function num4(n){
+    let out='';
+    for(let i=n;i>=1;i--){
+        for(let j=i;j>=1;j--){
+           out+="*"
+
+        }
+        out+="\n"
+    }
+    return out;
+}
+console.log(num4(5));
+function num5(n){
+    let out='';
+    for(let i=n;i>=1;i--){
+        for(let j=i;j>=1;j--){
+           out+=i
+
+        }
+        out+="\n"
+    }
+    return out;
+}
+console.log(num5(5));
+
+function num6(n){
+    let out='';
+    for(let i=n;i>=1;i--){
+        for(let j=i;j>=1;j--){
+           out+=j
+
+        }
+        out+="\n"
+    }
+    return out;
+}
+console.log(num6(5));
+
+function num7(n){
+    let out='';
+    for(let i=1;i<=(n*2)-1;i++){
+       for(let j=1;j<=i;j++){
+               out+=" *"
+    }
+    out+='\n'
+         for(let i=4;i<=1;i--){
+        for(let j=1;j<=i;j--){
+              out+= " *"    
+        }
+        out+='\n'
+        
+    }
+    }
+    return out
+}
+console.log(num7(5));
