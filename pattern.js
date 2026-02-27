@@ -1,4 +1,4 @@
-// for(let i=0;i<=10;i++){
+/*// for(let i=0;i<=10;i++){
 //     console.log("*");   
 // }
 
@@ -243,3 +243,97 @@ console.log("----------------");
  }
  console.log(patternD(5));
 
+*/
+
+
+// outer five and inner :-
+
+function num(n){
+    let output=''
+    for(let i=1;i<=n;i++){
+        for(let j=1;j<=n;j++){
+            output+="* " 
+        }
+        output+='\n'
+        
+    }
+    return output;
+}
+console.log(num(5));
+//
+
+function num1(n){
+    let output=' '
+    for(let i=1;i<=n;i++){
+        for(let j=1;j<=n;j++){
+            output+=i
+        }
+        output+='\n'
+        
+    }
+    return output;
+}
+console.log(num1(5));
+
+// ourt loop and column increase :-
+
+function nums(n){
+    let output1='';
+    for(let i=1;i<=n;i++){
+        for(let j=1;j<=i;j++){
+            output1+='*';
+        }
+        output1+='\n'
+    }
+    return output1
+}
+console.log(nums(5));
+
+//
+
+function nums1(n){
+    let output1='';
+    for(let i=1;i<=n;i++){
+        for(let j=1;j<=i;j++){
+            output1+=j;
+        }
+        output1+='\n'
+    }
+    return output1
+}
+console.log(nums1(5));
+
+// print 1 0 1 0 1:-
+
+function num2(n){
+    let output2='';
+    let printValue=1;
+    for(let i=1;i<=n;i++){
+        printValue=i%2==0?0:1
+        for(let j=1;j<=i;j++){
+            output2+=printValue
+            printValue=printValue===1?0:1
+            
+        }
+        output2+='\n'
+    }
+    return output2
+}
+console.log(num2(5));
+
+
+
+//123456
+function num3(n){
+    let output='';
+    let printV=1
+    for(let i=0;i<=n;i++){
+        for(let j=0;j<=i;j++){
+            output+=printV++
+        }
+        output+='\n'
+    }
+    return output
+
+}
+console.log(num3(5));
