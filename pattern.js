@@ -1,5 +1,5 @@
-/*// for(let i=0;i<=10;i++){
-//     console.log("*");   
+// for(let i=0;i<=10;i++){
+//      console.log("*");   
 // }
 
 // for(let i=0;i<=10;i++){
@@ -8,181 +8,181 @@
 // }
 // console.log("............");
 
-// for(let i=2;i<=10;i++){
-//     if(i%2==0){
-//         console.log(1);
+// // for(let i=2;i<=10;i++){
+// //     if(i%2==0){
+// //         console.log(1);
         
-//     }
-//     else {
-//         console.log(0);
-        
-//     } 
-// }
-// console.log("simple way");
-
-// let out=''
-// for(let i=0;i<=10;i++){
-//     out+=i%2
-    
-// }
-// console.log(out);
-
-// let result=''
-// for(let i=0;i<=10;i++){
-//     for(let j=0;j<=10;j++){
-//         result+='* '
-        
-//     }
-//     result+='\n'
-// }
-// console.log(result);
-
-
-
-// let result1=''
-// for(let i=0;i<=10;i++){
-//     for(let j=0;j<=10;j++){
-//         result1+=i
-       
-//     }
-//     result1+='\n'
-// }
-// console.log(result1);
-
-
-// let result3='';
-
-// for(let i=0;i<=10;i++){
-//     for(let j=0;j<=i;j++){
-//         result3+='*  '
-//     }
-//     result3+='\n'
-// }
-// console.log(result3);
-
-// let result4='';
-// for(let i=1;i<=10;i++){
-//     for(let j=0;j<i;j++){
-//         result4+= (i%2==0?1:0)+''
-//     }
-//     result4+='\n'
-// }
-// console.log(result4);
-
-
-// // let result5='';
-// // for(let i=1;i<=10;i++){
-// //     for(let j=1;j<=i*2;j++){
-// //         result5+="* ";
 // //     }
-// //     result5+='\n'
-// // }
-// // console.log(result5);
-// let result5 = '';
-
-// for(let i = 1; i <= 10; i += 2){
-//     for(let j = 1; j <= i; j++){
-//         result5 += "* ";
-//     }
-//     result5 += '\n';
-// }
-
-// console.log(result5);
-
-// let result6='';
-// for(let i=0;i<=10;i++){
-//     let temp=(i*2)-1
-//     for(let j=0;j<temp;j++){
-//         result6+='*'
+// //     else {
+// //         console.log(0);
         
+// //     } 
+// // }
+// // console.log("simple way");
+
+// // let out=''
+// // for(let i=0;i<=10;i++){
+// //     out+=i%2
+    
+// // }
+// // console.log(out);
+
+// // let result=''
+// // for(let i=0;i<=10;i++){
+// //     for(let j=0;j<=10;j++){
+// //         result+='* '
+        
+// //     }
+// //     result+='\n'
+// // }
+// // console.log(result);
+
+
+
+// // let result1=''
+// // for(let i=0;i<=10;i++){
+// //     for(let j=0;j<=10;j++){
+// //         result1+=i
+       
+// //     }
+// //     result1+='\n'
+// // }
+// // console.log(result1);
+
+
+// // let result3='';
+
+// // for(let i=0;i<=10;i++){
+// //     for(let j=0;j<=i;j++){
+// //         result3+='*  '
+// //     }
+// //     result3+='\n'
+// // }
+// // console.log(result3);
+
+// // let result4='';
+// // for(let i=1;i<=10;i++){
+// //     for(let j=0;j<i;j++){
+// //         result4+= (i%2==0?1:0)+''
+// //     }
+// //     result4+='\n'
+// // }
+// // console.log(result4);
+
+
+// // // let result5='';
+// // // for(let i=1;i<=10;i++){
+// // //     for(let j=1;j<=i*2;j++){
+// // //         result5+="* ";
+// // //     }
+// // //     result5+='\n'
+// // // }
+// // // console.log(result5);
+// // let result5 = '';
+
+// // for(let i = 1; i <= 10; i += 2){
+// //     for(let j = 1; j <= i; j++){
+// //         result5 += "* ";
+// //     }
+// //     result5 += '\n';
+// // }
+
+// // console.log(result5);
+
+// // let result6='';
+// // for(let i=0;i<=10;i++){
+// //     let temp=(i*2)-1
+// //     for(let j=0;j<temp;j++){
+// //         result6+='*'
+        
+// //     }
+// //     result6+='\n'
+// // }
+// // console.log(result6);
+
+// // console.log("reverse");
+
+
+// // let result7='';
+
+// // for(let i=10;i>=0;i--){
+// //     for(let j=0;j<=i;j++){
+// //         result7+="*"
+// //     }
+// //     result7+= '\n'
+// // }
+// // console.log(result7);
+
+// // // ist one row printed and then column printing 
+
+
+// // let output2=''
+
+// // for(let i=10;i>=0;i--){
+// //     for(let j=0;j<i;j++){
+// //         output2+=' '
+// //     }
+// //     for(let k=i;k<=10;k++){
+// //         output2+='*'
+// //     }
+// //     output2+='\n'
+// // }
+// // console.log(output2);
+// // let ans=''
+
+// // for(let i=0;i<=4;i++){
+// //     for(let k=1;k<=i;k++){
+// //         ans+='*'
+
+// //     }
+// //     ans+='\n'
+// // }
+// // console.log(ans);
+
+
+// // new patern printing:-
+
+
+// // tricks:-
+
+
+// //no of line = no fo rows
+// // ourter loop time
+
+// // no of colum in innr loop
+
+// // 
+
+// function pattern(n){
+//     let output=''
+//     for(let i=0;i<=n;i++){
+//         for(let k=0;k<=n;k++){
+//             output+='* '
+//         }
+//     output+='\n'
 //     }
-//     result6+='\n'
+//     return output
+
 // }
-// console.log(result6);
-
-// console.log("reverse");
-
-
-// let result7='';
-
-// for(let i=10;i>=0;i--){
-//     for(let j=0;j<=i;j++){
-//         result7+="*"
-//     }
-//     result7+= '\n'
-// }
-// console.log(result7);
-
-// // ist one row printed and then column printing 
-
-
-// let output2=''
-
-// for(let i=10;i>=0;i--){
-//     for(let j=0;j<i;j++){
-//         output2+=' '
-//     }
-//     for(let k=i;k<=10;k++){
-//         output2+='*'
-//     }
-//     output2+='\n'
-// }
-// console.log(output2);
-// let ans=''
-
-// for(let i=0;i<=4;i++){
-//     for(let k=1;k<=i;k++){
-//         ans+='*'
-
-//     }
-//     ans+='\n'
-// }
-// console.log(ans);
-
-
-// new patern printing:-
-
-
-// tricks:-
-
-
-//no of line = no fo rows
-// ourter loop time
-
-// no of colum in innr loop
-
-// 
-
-function pattern(n){
-    let output=''
-    for(let i=0;i<=n;i++){
-        for(let k=0;k<=n;k++){
-            output+='* '
-        }
-    output+='\n'
-    }
-    return output
-
-}
- let result=pattern(3)
- console.log(result);
+//  let result=pattern(3)
+//  console.log(result);
 
 
   
 
- function patternA(n){
-    let output=''
-    for(let i=1;i<=n;i++){
-        for(let k=1;k<=n;k++){
-            output+= i
-        }
-    output+='\n'
-    }
-    return output
+//  function patternA(n){
+//     let output=''
+//     for(let i=1;i<=n;i++){
+//         for(let k=1;k<=n;k++){
+//             output+= i
+//         }
+//     output+='\n'
+//     }
+//     return output
 
-}
- let resultA=patternA(4)
- console.log(resultA);
+// }
+//  let resultA=patternA(4)
+//  console.log(resultA);
  
 
 
@@ -195,216 +195,215 @@ function pattern(n){
 
 
 
- function pattern1(n){
-    let output1='';
-    for(let i=1;i<=n;i++){
-        for(let k=1;k<=i;k++){
-            output1+='*'
-        }
-        output1+='\n'
-    }
-    return output1
- }
- console.log(pattern1(10));
+//  function pattern1(n){
+//     let output1='';
+//     for(let i=1;i<=n;i++){
+//         for(let k=1;k<=i;k++){
+//             output1+='*'
+//         }
+//         output1+='\n'
+//     }
+//     return output1
+//  }
+//  console.log(pattern1(10));
  
 
- function patternC(num){
-    let ans='';
-    for(let i=1;i<=num;i++){
-        for(let k=1;k<=i;k++){
-            ans+=k
-        }
-        ans+='\n'
-    }
-    return ans
+//  function patternC(num){
+//     let ans='';
+//     for(let i=1;i<=num;i++){
+//         for(let k=1;k<=i;k++){
+//             ans+=k
+//         }
+//         ans+='\n'
+//     }
+//     return ans
 
- }
- console.log(patternC(5));
+//  }
+//  console.log(patternC(5));
  
-console.log("----------------");
+// console.log("----------------");
 
 
 
- function patternD(num){
-    let ans='';
-    for(let i=1;i<=num;i++){
-        for(let k=1;k<=i;k++){
-            if(k%2==0){
-                ans+=0
-            }
-            else{
-                ans+=1
-            }
-        }
-        ans+='\n'
-    }
-    return ans
+//  function patternD(num){
+//     let ans='';
+//     for(let i=1;i<=num;i++){
+//         for(let k=1;k<=i;k++){
+//             if(k%2==0){
+//                 ans+=0
+//             }
+//             else{
+//                 ans+=1
+//             }
+//         }
+//         ans+='\n'
+//     }
+//     return ans
 
- }
- console.log(patternD(5));
+//  }
+//  console.log(patternD(5));
 
-*/
+// */
 
 
-// outer five and inner :-
+// // outer five and inner :-
 
-function num(n){
-    let output=''
-    for(let i=1;i<=n;i++){
-        for(let j=1;j<=n;j++){
-            output+="* " 
-        }
-        output+='\n'
+// function num(n){
+//     let output=''
+//     for(let i=1;i<=n;i++){
+//         for(let j=1;j<=n;j++){
+//             output+="* " 
+//         }
+//         output+='\n'
         
-    }
-    return output;
-}
-console.log(num(5));
-//
+//     }
+//     return output;
+// }
+// console.log(num(5));
+// //
 
-function num1(n){
-    let output=' '
-    for(let i=1;i<=n;i++){
-        for(let j=1;j<=n;j++){
-            output+=i
-        }
-        output+='\n'
+// function num1(n){
+//     let output=' '
+//     for(let i=1;i<=n;i++){
+//         for(let j=1;j<=n;j++){
+//             output+=i
+//         }
+//         output+='\n'
         
-    }
-    return output;
-}
-console.log(num1(5));
+//     }
+//     return output;
+// }
+// console.log(num1(5));
 
-// ourt loop and column increase :-
+// // ourt loop and column increase :-
 
-function nums(n){
-    let output1='';
-    for(let i=1;i<=n;i++){
-        for(let j=1;j<=i;j++){
-            output1+='*';
-        }
-        output1+='\n'
-    }
-    return output1
-}
-console.log(nums(5));
+// function nums(n){
+//     let output1='';
+//     for(let i=1;i<=n;i++){
+//         for(let j=1;j<=i;j++){
+//             output1+='*';
+//         }
+//         output1+='\n'
+//     }
+//     return output1
+// }
+// console.log(nums(5));
 
-//
+// //
 
-function nums1(n){
-    let output1='';
-    for(let i=1;i<=n;i++){
-        for(let j=1;j<=i;j++){
-            output1+=j;
-        }
-        output1+='\n'
-    }
-    return output1
-}
-console.log(nums1(5));
+// function nums1(n){
+//     let output1='';
+//     for(let i=1;i<=n;i++){
+//         for(let j=1;j<=i;j++){
+//             output1+=j;
+//         }
+//         output1+='\n'
+//     }
+//     return output1
+// }
+// console.log(nums1(5));
 
-// print 1 0 1 0 1:-
+// // print 1 0 1 0 1:-
 
-function num2(n){
-    let output2='';
-    let printValue=1;
-    for(let i=1;i<=n;i++){
-        printValue=i%2==0?0:1
-        for(let j=1;j<=i;j++){
-            output2+=printValue
-            printValue=printValue===1?0:1
+// function num2(n){
+//     let output2='';
+//     let printValue=1;
+//     for(let i=1;i<=n;i++){
+//         printValue=i%2==0?0:1
+//         for(let j=1;j<=i;j++){
+//             output2+=printValue
+//             printValue=printValue===1?0:1
             
-        }
-        output2+='\n'
-    }
-    return output2
-}
-console.log(num2(5));
+//         }
+//         output2+='\n'
+//     }
+//     return output2
+// }
+// console.log(num2(5));
 
 
 
-//123456
-function num3(n){
-    let output='';
-    let printV=1
-    for(let i=0;i<=n;i++){
-        for(let j=0;j<=i;j++){
-            output+=printV++
-        }
-        output+='\n'
-    }
-    return output
+// //123456
+// function num3(n){
+//     let output='';
+//     let printV=1
+//     for(let i=0;i<=n;i++){
+//         for(let j=0;j<=i;j++){
+//             output+=printV++
+//         }
+//         output+='\n'
+//     }
+//     return output
 
-}
-console.log(num3(5));
+// }
+// console.log(num3(5));
 
-// turn
+// // turn
 
-function num4(n){
-    let out='';
-    for(let i=n;i>=1;i--){
-        for(let j=i;j>=1;j--){
-           out+="*"
+// function num4(n){
+//     let out='';
+//     for(let i=n;i>=1;i--){
+//         for(let j=i;j>=1;j--){
+//            out+="*"
 
-        }
-        out+="\n"
-    }
-    return out;
-}
-console.log(num4(5));
-function num5(n){
-    let out='';
-    for(let i=n;i>=1;i--){
-        for(let j=i;j>=1;j--){
-           out+=i
+//         }
+//         out+="\n"
+//     }
+//     return out;
+// }
+// console.log(num4(5));
+// function num5(n){
+//     let out='';
+//     for(let i=n;i>=1;i--){
+//         for(let j=i;j>=1;j--){
+//            out+=i
 
-        }
-        out+="\n"
-    }
-    return out;
-}
-console.log(num5(5));
-
-function num6(n){
-    let out='';
-    for(let i=n;i>=1;i--){
-        for(let j=i;j>=1;j--){
-           out+=j
-
-        }
-        out+="\n"
-    }
-    return out;
-}
-console.log(num6(5));
+//         }
+//         out+="\n"
+//     }
+//     return out;
+// }
+// console.log(num5(5));
 
 
-console.log("*****************************");
+// function num6(n){
+//     let out='';
+//     for(let i=n;i>=1;i--){
+//         for(let j=i;j>=1;j--){
+//            out+=j
+//         }
+//         out+="\n"
+//     }
+//     return out;
+// }
+// console.log(num6(5));
+
+
+// console.log("*****************************");
 
 
 
-function num7(n){
-    let out=''
-for(let i=1;i<= n*2-1;i++){
-    let rowChange=i>n?(n*2)-i:i;
-    for(let j=1; j<=rowChange;j++){
-        out+='*'
-    }
-    out+='\n'
-}
-return out
-}
-console.log(num7(5));
+// function num7(n){
+//     let out=''
+// for(let i=1;i<= n*2-1;i++){
+//     let rowChange=i>n?(n*2)-i:i;
+//     for(let j=1; j<=rowChange;j++){
+//         out+='*'
+//     }
+//     out+='\n'
+// }
+// return out
+// }
+// console.log(num7(5));
 
 
 // pattern-5:-
 
-
 function num8(n){
-    let out=''
+    let out=' ';
     for(let i=1;i<=n;i++){
         for(let j=1;j<=(n-i);j++){
-            out+=' '
+            out+='-'
         }
         for(let k=1;k<=i;k++){
             out+='*'
@@ -415,6 +414,60 @@ function num8(n){
 }
 console.log(num8(4));
 
+// pattern-6:-
+
+function num9(n){
+    let out='';
+    for(let i=n;i>=1;i--){
+        for(let k=(n-i);k>=1;k--){
+            out+='- '
+        }
+        for(let j=1;j<=n-i;j++){
+            out+="*"
+        }
+        out+='\n'
+    }
+    return out
+}
+console.log(num9(5));
+
+
+function num10(n){
+    let out=''
+    for(let i=1;i<=n;i++){
+        for(let j=1;j<=n-i;j++){
+            out+=' '
+        }
+        for(let k=1;k<=(i*2)-1;k++){
+            out+=' *'
+        }
+        out+='\n'
+    }
+    return out;
+}
+console.log(num10(10));
+
+
+
+
+let out='';
+
+for(let i=1;i<=5;i++){
+    for(let j=1;j<=5;j++){
+        out+= ' *'
+    }
+    out+='\n'
+}
+console.log(out);
+
+let out1=' '
+for(let i=1;i<=5;i++){
+    for(let j=1;j<=i;j++){
+        out1+="*"
+    }
+    out1+='\n'
+}
+console.log(out1);
 
 
 
