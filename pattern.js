@@ -378,21 +378,55 @@ function num6(n){
 }
 console.log(num6(5));
 
+
+console.log("*****************************");
+
+
+
 function num7(n){
-    let out='';
-    for(let i=1;i<=(n*2)-1;i++){
-       for(let j=1;j<=i;j++){
-               out+=" *"
+    let out=''
+for(let i=1;i<= n*2-1;i++){
+    let rowChange=i>n?(n*2)-i:i;
+    for(let j=1; j<=rowChange;j++){
+        out+='*'
     }
     out+='\n'
-         for(let i=4;i<=1;i--){
-        for(let j=1;j<=i;j--){
-              out+= " *"    
-        }
-        out+='\n'
-        
-    }
-    }
-    return out
+}
+return out
 }
 console.log(num7(5));
+
+
+// pattern-5:-
+
+
+function num8(n){
+    let out=''
+    for(let i=1;i<=n;i++){
+        for(let j=1;j<=(n-i);j++){
+            out+=' '
+        }
+        for(let k=1;k<=i;k++){
+            out+='*'
+        }
+        out+='\n'
+    }
+    return out;
+}
+console.log(num8(4));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
