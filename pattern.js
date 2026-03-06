@@ -20,12 +20,12 @@
 // // }
 // // console.log("simple way");
 
-// // let out=''
-// // for(let i=0;i<=10;i++){
-// //     out+=i%2
+ let outE=''
+ for(let i=0;i<=10;i++){
+     outE+=i%2
     
-// // }
-// // console.log(out);
+}
+console.log(outE);
 
 // // let result=''
 // // for(let i=0;i<=10;i++){
